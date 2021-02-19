@@ -1,0 +1,38 @@
+         /*         NAVBAR SECTION CSS         */
+         .navbar{
+            background: #000000;
+        }
+        .navbar .nav-item {
+            padding-left: 18px;
+        }
+        .navbar .nav-item .nav-link {
+            text-transform: uppercase;
+        }
+        @media(max-width:768px){
+            .navbar .nav-item{
+                padding-left: 0;
+            }
+        }
+
+         /*        SERVICE PAGE SERVICE-BANNER SECTION CSS        */
+
+
+.service-banner{
+       background: url(../img/image3\(2\).jpeg) no-repeat top center;
+       background-size: cover;
+       padding: 65px 0;
+       margin-top: 30px;
+}
+
+
+
+               /*     SERVICE PAGE BANNER SECTION CSS      */ 
+
+
+
+
+
+        
+.footer{
+    background: #000000;
+}

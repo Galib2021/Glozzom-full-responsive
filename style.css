@@ -1,0 +1,105 @@
+
+         /*         NAVBAR SECTION CSS         */
+.navbar{
+	background: #000000;
+}
+.navbar .nav-item {
+    padding-left: 18px;
+}
+.navbar .nav-item .nav-link {
+	text-transform: uppercase;
+}
+@media(max-width:768px){
+    .navbar .nav-item{
+        padding-left: 0;
+    }
+}
+
+          /*        SLIDER SECTION CSS      */
+
+
+.carousel-item-one{
+    background: url(./img/image1.jpeg) no-repeat center top;
+    height: 451px;
+}
+.carousel-item-two{
+    background: url(./img/image2.jpeg) no-repeat center top;
+    height: 451px;
+}
+.carousel-item-three{
+    background: url(./img/image3.jpeg) no-repeat center top;
+    height: 451px;
+}
+
+.carousel-control-next {
+	background: none;
+	border: none;
+}
+.carousel-control-prev {
+	background: none;
+	border: none;
+}
+.carousel-indicators button {
+	width: 45px;
+	height: 6px;
+	background: #fd0000;
+	border: 2px solid #c9c1c1;
+	margin: 0 5px;
+}
+          /*        HOME ICON SECTION CSS        */
+.homeIcon i {
+	font-size: 56px;
+}
+
+
+          /*        STARTED SECTION CSS        */
+
+.started{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(./img/bg1.jpeg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 65px 0;
+}
+
+.homeYoutubeVideo{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(./img/people.jpeg) no-repeat top center;
+    background-size: cover;
+    padding: 65px 0;
+    background-attachment: fixed;
+}
+.homeYoutubeVideo i {
+	font-size: 43px;
+	color: #f00;
+	margin-bottom: 22px;
+}
+
+          /*          PHOTO GALLARY SECTION CSS        */
+
+
+.photoGallery .img-fluid {
+	height: 251px;
+}
+@media(max-width:576px){
+    .photoGallery .img-fluid {
+        height: auto;
+    }
+}
+
+
+          /*     NEWSLETTER SECTION CSS     */
+.form-control {
+	width: 304px;
+	display: inline;
+}
+
+@media(max-width:766px){
+    .form-control {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+.footer{
+    background: #000000;
+}

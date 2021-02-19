@@ -1,0 +1,57 @@
+         /*         NAVBAR SECTION CSS         */
+         .navbar{
+            background: #000000;
+        }
+        .navbar .nav-item {
+            padding-left: 18px;
+        }
+        .navbar .nav-item .nav-link {
+            text-transform: uppercase;
+        }
+        @media(max-width:768px){
+            .navbar .nav-item{
+                padding-left: 0;
+            }
+        }
+
+        
+
+        /*         ABOUT SECTION CSS          */
+
+
+
+.about {
+        background: url(../img/image1\(2\).jpeg) no-repeat top center;
+        background-size: cover;
+        padding: 65px 0;
+        margin-top: 50px;
+}
+
+
+
+.qustion img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.about-card .card i {
+	font-size: 56px;
+}
+            /*         TESTIMONIAL SECTION CSS        */
+
+.blockquote-footer a {
+	text-decoration: none;
+	color: #ff4800;
+}
+
+
+
+
+
+
+.footer{
+    background: #000000;
+}
